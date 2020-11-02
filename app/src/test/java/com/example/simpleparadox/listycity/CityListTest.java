@@ -93,4 +93,13 @@ class CityListTest {
 
         assertEquals(1 , cityList.countCities());
     }
+
+    @Test
+    void testChangeCity() {
+        City newCity = new City("Toronto", "Ontario");
+        CityList cityList = mockCityList();
+        cityList.changeCity(0, newCity.getCityName(), newCity.getProvinceName());
+        assertTrue(cityList.hasCity(newCity));
+
+    }
 }

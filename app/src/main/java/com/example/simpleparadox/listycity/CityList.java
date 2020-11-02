@@ -77,4 +77,18 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+//
+//    /**
+//     * Change a city in the cities, update city name and province name
+//     * @param index
+//     *      The index of the city that need to be change
+//     * @param newCity
+//     *      The new city name
+//     * @param newProvince
+//     *      The new province name
+//     */
+//    public void changeCity(int index, String newCity, String newProvince) {
+//        cities.get(index).setCity(newCity);
+//        cities.get(index).setProvince(newProvince);
+//    }
 }
